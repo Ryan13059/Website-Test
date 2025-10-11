@@ -1,0 +1,34 @@
+{background:url('insertbackgroundhere')center/cover no-repeat fixed}*{-webkit-user-select: none}a{text-decoration:none}[name=hi]{transform: scale(1.3)}[name=hi]{opacity:0}[name=hi]:hover{transform:scale(1.0)}[name=hi]:hover{opacity:1}*{cursor:url('https://u.cubeupload.com/delcattyskitty23/cursor.png'), auto}[name=o]{background:#020202}[name=o]:hover{background:#b8b1b4}[name=e]{-webkit-text-fill-color:#767280}[name=e]{-webkit-text-stroke-width: 1px}[name=e]{-webkit-text-stroke-color:#b8b1b4}[name=e]:hover{-webkit-text-fill-color: #767280}[name=e]:hover{-webkit-text-stroke-color:#767280}*{transition: all .4s ease-in-out}#nowaymenu{position:absolute}#nowaymenu{bottom:0;}                                                                                                                                                      
+div#nowayfixed {                                                                                                                                                        
+ z-index: 2147483647;                                                                                                                                                        
+    position: fixed;                                                                                                                                                        
+    bottom: 0;                                                                                                                                                        
+    left: 0;                                                                                                                                                        
+}                                                                                                                                                        
+div#nowaymenu                                                                                                                                                        
+{                                                                                                                                                        
+ background-color:#009;                                                                                                                                                        
+ background: linear-gradient(, , );                                                                                                                                                        
+    border-radius: 0px 5px 0px 0px;                                                                                                                                                        
+ display: none;                                                                                                                                                        
+ FONT-SIZE: 12pt;                                                                                                                                                        
+ FONT-FAMILY: Arial, Helvetica, sans-serif;                                                                                                                                                        
+}                                                                                                                                                        
+div#nowayitems                                                                                                                                                        
+{                                                                                                                                                        
+ padding-top: 5px;                                                                                                                                                        
+    padding-right: 0px;                                                                                                                                                        
+    /*padding-bottom: 5px;*/                                                                                                                                                        
+    padding-left: 0px;                                                                                                                                                        
+    margin-left: 6px;                                                                                                                                                        
+    line-height: 130%;                                                                                                                                                        
+ color:#fff;                                                                                                                                                        
+}                                                                                                                                                        
+div#nowayitems > a                                                                                                                                                        
+{                                                                                                                                                        
+ color:#fff;                                                                                                                                                        
+    text-decoration: none;                                                                                                                                                        
+}                                                                                                                                                        
+div#nowayitems > a:hover  {                                                                                                                                                    
+    text-decoration: underline;                                                                                                                                                        
+}                                                                  
