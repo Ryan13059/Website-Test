@@ -1,4 +1,46 @@
-/* Simple stylesheet for the assignment site */
+/* Module 4 CSS: uses type selector, class selector, relational selector,
+   relative units, color for comprehension, and font properties */
+
+/* Type selector (applies to all <h1> elements) */
+h1 {
+  color: #1f6feb; /* blue header for clarity */
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+  font-size: 2.2rem; /* relative unit */
+  margin-bottom: 0.5rem;
+}
+
+/* Class selector (used for containers) */
+.container {
+  max-width: 75rem; /* relative-ish unit */
+  margin: 0 auto;
+  padding: 1.2rem; /* relative unit */
+  line-height: 1.4;
+}
+
+/* Relational selector: style links inside nav lists */
+nav ul li a {
+  color: #064e3b; /* dark green for navigation */
+  text-decoration: none;
+  font-weight: 600; /* font property */
+}
+
+/* Make images responsive using relative units */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.6rem;
+}
+
+/* Small print in footer */
+footer p {
+  font-size: 0.9rem;
+  color: #374151;
+}
+
+/* Utility class for visually separating sections */
+.section-gap {
+  margin-top: 1.6rem;
+}
 :root{
   --bg: #ffffff;
   --muted: #6b7280;
