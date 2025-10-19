@@ -31,3 +31,7 @@ CSS selector locations (in `styles.css`):
 - Relational selector (`nav ul li a`): lines 20-24
 
 If anything needs updating before submission (URLs, line numbers), tell me and I'll update this file and push.
+
+## Submission Notes
+
+Hi, and welcome to my website. My name is Ryan, and I've been at Olympic College for a few years now. I currently have an Associative Arts Degree, and an Associative Arts Degree in Culinary Arts. This is my website for CIS 155, and it's still under construction. Please stay tuned for any updates, additions, and subtractions.
