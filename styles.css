@@ -58,15 +58,15 @@ body{
   background:var(--bg);
   line-height:1.5;
   font-weight:400; /* default body weight */
-  font-size:13px; /* base font size requested by user */
+  font-size:0.8125rem; /* base font size (13px equivalent) */
 }
 .container{
-  max-width:900px;
+  max-width:56.25rem; /* 900px equivalent */
   margin:0 auto;
   padding:1rem;
 }
 header{
-  border-bottom:1px solid #e6e9ee;
+  border-bottom:0.0625rem solid #e6e9ee; /* 1px -> 0.0625rem */
   background:linear-gradient(90deg, rgba(14,165,164,0.06), transparent);
 }
 header .container{display:flex;align-items:center;justify-content:space-between}
@@ -76,10 +76,10 @@ nav a:hover{text-decoration:underline}
 h1{font-size:1.4rem;margin:.5rem 0;font-weight:600}
 main{padding:1rem 0}
 section{margin-bottom:1rem}
-footer{border-top:1px solid #e6e9ee;padding:1rem 0;color:var(--muted)}
+footer{border-top:0.0625rem solid #e6e9ee;padding:1rem 0;color:var(--muted)}
 img{max-width:100%;height:auto;display:block}
-form input, form textarea{width:100%;padding:.5rem;border:1px solid #d1d5db;border-radius:4px}
-form button{background:var(--accent);color:white;border:none;padding:.6rem 1rem;border-radius:4px;cursor:pointer}
+form input, form textarea{width:100%;padding:.5rem;border:0.0625rem solid #d1d5db;border-radius:0.25rem}
+form button{background:var(--accent);color:white;border:none;padding:.6rem 1rem;border-radius:0.25rem;cursor:pointer}
 @media(min-width:640px){
   h1{font-size:1.6rem}
   nav ul{gap:1rem}
