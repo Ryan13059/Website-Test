@@ -1,0 +1,34 @@
+/* Fugly page styles — intentionally bad aesthetics */
+:root{
+  --bg1: linear-gradient(120deg, rgba(255,0,128,0.25), rgba(0,255,192,0.25));
+  --neon: #ff00cc;
+  --neon2: #00ff66;
+}
+*{box-sizing:border-box}
+body.fugly-page{font-family:'Times New Roman', Times, serif;background:var(--bg1);color:var(--neon);margin:0;font-size:0.9rem}
+
+.fugly-header{padding:2.5rem;margin-left:3rem;margin-top:2rem;border:0.3rem dashed #000000;background:linear-gradient(90deg,#ffd70088,#ff450088)}
+.fugly-header h1{margin:0 0 1rem 2rem;color:#3300ff;text-shadow:0.2rem 0.2rem 0 rgba(0,0,0,0.4)}
+nav ul{display:flex;gap:1.2rem;list-style:disc;margin-left:4rem;padding-left:1.5rem}
+
+.fugly-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.6rem;padding:2rem}
+.panel{background:linear-gradient(180deg, rgba(255,255,255,0.06), rgba(0,0,0,0.15));padding:1.6rem;margin:2rem;border-radius:0.8rem}
+
+.panel.left{margin-left:4rem;padding-left:3rem;border:0.3rem dashed #ff0000}
+.panel.middle{margin-right:6rem;padding-right:3.5rem;border-top:0.5rem double #00ff00;border-bottom:0.1rem dotted #000}
+.panel.right{margin-left:1rem;padding-top:3rem;border-left:0.4rem groove #0000ff}
+
+.weird-border{padding:1.2rem;margin:1.4rem;border:0.25rem dashed #f0f;text-decoration:underline dotted #0ff}
+.more-margin{margin:3rem 0 4rem 5rem}
+.extra-pad{padding:2.6rem 2.6rem 0 0}
+
+.wide-banner{margin:2rem;padding:2rem;border:0.4rem double #ffa500;background:linear-gradient(45deg, rgba(255,0,0,0.4), rgba(0,0,255,0.5));color:#00ffcc}
+
+.fugly-foot{margin-top:4rem;padding:2rem;border-top:0.2rem dashed #000;background:linear-gradient(180deg,#00000033,#ff00ff33);color:#ffffff}
+
+/* Make things even less readable on small screens */
+@media (max-width:800px){
+  .fugly-grid{grid-template-columns:1fr;gap:0.5rem;padding:0.5rem}
+  .panel{margin:1rem;padding:0.5rem}
+  .fugly-header{padding:1rem;margin-left:0.5rem}
+}
