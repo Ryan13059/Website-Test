@@ -84,3 +84,39 @@ form button{background:var(--accent);color:white;border:none;padding:.6rem 1rem;
   h1{font-size:1.6rem}
   nav ul{gap:1rem}
 }
+
+/* --- Deliberately messy changes for FUGLY assignment --- */
+/* Mess up header readability: large margins, bright gradient overlay */
+header{
+  /* existing header styles kept above; add chaotic spacing and gradient */
+  margin-left:2.5rem; /* push header off-center */
+  margin-top:1.8rem; /* big top gap */
+  padding:2rem 3rem; /* large padding */
+  background:linear-gradient(120deg, rgba(255,0,128,0.35), rgba(0,255,192,0.25));
+  color:#ffcc00; /* neon-ish header text color */
+}
+
+/* Add inconsistent borders and padding to figure (Bria image) */
+figure{
+  margin:2.5rem 0 3rem 4rem; /* messy left offset */
+  padding:1.8rem; /* extra interior space */
+  border:0.3rem dashed #ff00ff; /* thick dashed border */
+  box-shadow:0.5rem 0.5rem 0 rgba(0,0,0,0.25);
+}
+
+/* Topsy-turvy section spacing */
+section{
+  margin-left:3rem;
+  margin-right: -1.2rem; /* negative margin to overlap content */
+  padding:1.6rem 2.2rem;
+}
+
+/* Make container oddly narrow on home page to disrupt layout */
+.container{
+  max-width:30rem; /* intentionally small */
+  padding:2rem;
+}
+
+/* Slightly change heading sizes to contrast with body */
+h2{font-size:1.05rem;margin-left:1.4rem}
+

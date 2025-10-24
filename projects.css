@@ -1,0 +1,15 @@
+/* projects.css — separate palette and a 2-column layout for the projects page */
+:root{
+  --proj-bg:#111114;
+  --proj-accent:#bb2233;
+  --proj-text:#f3f3f3;
+}
+*{box-sizing:border-box}
+body{background:linear-gradient(90deg,#111114,#221122);color:var(--proj-text);font-family:Georgia, 'Times New Roman', Times, serif;font-size:0.95rem}
+.projects-container{display:grid;grid-template-columns:2fr 1fr;gap:1.6rem;padding:1.2rem;max-width:64rem;margin:0 auto}
+.proj-main{background:#16161a;padding:1.2rem;border-radius:0.6rem}
+.proj-side{background:#0f0b0d;padding:1.2rem;border-left:0.25rem solid var(--proj-accent)}
+.proj-main h1{color:var(--proj-accent);margin-top:0}
+.proj-side h2{color:#ffeeee}
+
+/* deliberate different visual conventions: serif fonts, dark palette */
