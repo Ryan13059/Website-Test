@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+  <rect width="100%" height="100%" fill="#f8fafc"/>
+  <g>
+    <circle cx="150" cy="120" r="80" fill="#fde047"/>
+    <rect x="300" y="80" width="600" height="360" rx="18" ry="18" fill="#c7d2fe"/>
+  </g>
+  <text x="500" y="320" font-family="Georgia, serif" font-size="36" text-anchor="middle" fill="#0f172a">Bria — placeholder image</text>
+  <text x="500" y="360" font-family="Georgia, serif" font-size="18" text-anchor="middle" fill="#334155">Replace with images/IMG_7150.png</text>
+</svg>
