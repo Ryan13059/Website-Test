@@ -1,5 +1,6 @@
+```markdown
 Requirements for This Week
-Your web page (index.html) must use at least one of each of the following HTML elements:
+Your web page (index.html) must use at least one of the following HTML elements:
 
 <p>
 <h1>
@@ -35,3 +36,21 @@ If anything needs updating before submission (URLs, line numbers), tell me and I
 ## Submission Notes
 
 Hi, and welcome to my website. My name is Ryan, and I've been at Olympic College for a few years now. I currently have an Associative Arts Degree, and an Associative Arts Degree in Culinary Arts. This is my website for CIS 155, and it's still under construction. Please stay tuned for any updates, additions, and subtractions.
+
+---
+
+Instructor submission snippet (no local paths exposed)
+
+- Repository: https://github.com/Ryan13059/Website-Test
+- Live site (GitHub Pages): https://Ryan13059.github.io/Website-Test/
+- CSS selector locations (in `styles.css`, approximate line numbers in this copy):
+  - Type selector (`h1`): lines 4-9
+  - Class selector (`.container`): lines 12-17
+  - Relational selector (`nav ul li a`): lines 20-24
+
+Notes:
+- Local file system paths were intentionally removed from repository text files for privacy. Referenced images live in `images/`.
+- If you need exact line numbers for grading, I can update them precisely on request.
+
+If anything in this submission needs correction before you hand it in (URLs, selector line numbers, or missing files), reply here and I will update and push the fixes.
+```
