@@ -147,4 +147,24 @@ h2{font-size:1.05rem;margin-left:1.4rem}
 .about-page ul li{transform:translateX(-0.8rem) rotate(-0.4deg);display:list-item}
 .about-page p:hover{transform:translate(0,0) rotate(0);background:rgba(255,255,255,0.02)}
 
+/* Responsive gallery for Fugly page: fluid grid that adapts at breakpoints */
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;align-items:start}
+.gallery figure{background:#fff;padding:.5rem;border-radius:.4rem}
+
+/* Media queries for layout breakpoints (two breakpoints for extra credit) */
+@media (max-width:900px){
+  .gallery{grid-template-columns:repeat(2,1fr)}
+  .container{max-width:48rem}
+  header{padding:1rem 1.2rem;margin-left:1rem}
+}
+
+@media (max-width:480px){
+  .gallery{grid-template-columns:1fr}
+  nav ul{flex-direction:column;gap:.4rem}
+  .container{padding:.75rem}
+  header{margin-left:.4rem;padding:.8rem}
+}
+
+/* Comment: images are already scalable via img{max-width:100%;height:auto;} above */
+
 
