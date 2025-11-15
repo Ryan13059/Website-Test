@@ -1,4 +1,54 @@
 <!doctype html>
 <html lang="en">
-<!-- paste the same HTML content here (or use the file you saved) -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fugly Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- This page demonstrates a simple CSS Grid gallery and a flex layout for the main content. -->
+</head>
+<body>
+    <header class="site-header">
+        <nav class="site-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="main-layout">
+        <!-- Gallery (uses CSS Grid in styles.css) -->
+        <section class="gallery" aria-label="Fugly image gallery">
+            <figure>
+                <img src="images/bria.jpg" alt="Portrait of Bria">
+                <figcaption>Bria</figcaption>
+            </figure>
+            <figure>
+                <img src="images/chewie-coffee.jpg" alt="Chewie holding a coffee cup">
+                <figcaption>Chewie Coffee</figcaption>
+            </figure>
+            <figure>
+                <img src="images/speedlimit1.jpg" alt="Speed limit sign">
+                <figcaption>Speed Limit 1</figcaption>
+            </figure>
+            <figure>
+                <img src="images/speedlimit2.jpg" alt="Speed limit sign variant">
+                <figcaption>Speed Limit 2</figcaption>
+            </figure>
+            <figure>
+                <img src="images/sw.jpg" alt="Stylized Star Wars image">
+                <figcaption>Star Wars</figcaption>
+            </figure>
+        </section>
+
+        <!-- Aside to demonstrate a two-column flex layout -->
+        <aside class="sidebar">
+            <p>This aside keeps the layout balanced and provides extra context for the gallery.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Website</p>
+    </footer>
+</body>
 </html>
