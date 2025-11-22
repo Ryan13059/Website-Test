@@ -1,0 +1,8 @@
+# Ignore local screenshots and generated previews
+screenshots/
+
+# Common ignores (optional)
+*.pyc
+__pycache__/
+.env
+.venv/
