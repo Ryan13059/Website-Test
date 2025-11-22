@@ -175,3 +175,58 @@ body { font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helv
 .footer-icon { margin-right: 0.5rem; color: var(--accent); }
 
 
+
+/* ------------------------------------------------------------------
+  Normalize 'boxes' (figures, sections, container offsets) on all
+  pages EXCEPT the fugly page. The fugly page keeps the topsy-turvy
+  styles for assignment purposes.
+  ------------------------------------------------------------------ */
+
+/* Straighten figure boxes: remove large offsets, padding, heavy borders */
+body:not(.fugly-page) figure {
+  margin: 1.5rem 0; /* consistent vertical rhythm */
+  padding: 0.6rem; /* small internal gap for card appearance */
+  border: 0.0625rem solid #e6e9ee; /* thin neutral border (1px) */
+  border-radius: 0.5rem; /* rounded corners for card-like look */
+  box-shadow: 0 0.25rem 0.5rem rgba(16,24,40,0.04); /* subtle shadow */
+  transform: none; /* cancel rotations/transforms */
+  max-width: 100%;
+  background: #ffffff; /* card background for contrast */
+}
+
+/* Reset section spacing and remove negative margins/overlap */
+body:not(.fugly-page) section {
+  margin: 0 0 1.25rem 0;
+  padding: 0;
+  transform: none;
+}
+
+/* Make the main container consistent again on non-fugly pages */
+body:not(.fugly-page) .container {
+  max-width: 56.25rem; /* keep earlier comfortable width */
+  margin: 0 auto;
+  padding: 1rem;
+  position: static;
+}
+
+/* Cancel the .about-page decorative transforms on non-fugly pages */
+body:not(.fugly-page) .about-page h1,
+body:not(.fugly-page) .about-page h2,
+body:not(.fugly-page) .about-page p,
+body:not(.fugly-page) .about-page ul li {
+  transform: none !important;
+}
+
+/* Ensure header uses normal spacing on non-fugly pages */
+body:not(.fugly-page) header {
+  margin-left: 0;
+  margin-top: 0;
+  padding: 1rem 0.75rem;
+  background: linear-gradient(90deg, rgba(14,165,164,0.06), transparent);
+  color: inherit;
+}
+
+/* If any inline rotations remain, remove them globally (except fugly) */
+body:not(.fugly-page) * { transform: none !important; }
+
+
