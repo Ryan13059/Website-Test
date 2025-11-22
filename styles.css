@@ -229,4 +229,21 @@ body:not(.fugly-page) header {
 /* If any inline rotations remain, remove them globally (except fugly) */
 body:not(.fugly-page) * { transform: none !important; }
 
+/* Fix nav spacing on non-fugly pages: ensure clear gaps and padding */
+body:not(.fugly-page) nav ul {
+  display: flex;
+  gap: 1rem; /* consistent horizontal spacing */
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+body:not(.fugly-page) nav ul li { list-style: none; }
+body:not(.fugly-page) nav a {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  color: var(--accent);
+}
+/* Ensure the main-nav offset doesn't push nav items awkwardly on non-fugly pages */
+body:not(.fugly-page) .main-nav { margin-left: 0; padding: 0; }
+
 
