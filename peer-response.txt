@@ -1,41 +1,36 @@
 Peer response / self-assessment
 
-Peer suggestions (copied or inferred):
-1) "Use a nicer site font and improve readability (headings are hard to read)." — peer suggestion
-2) "Add more content on multiple pages so each page fills a screen and includes relevant data (like a table)." — peer suggestion
+Peer suggestions 
+1) "Hello Ryan,
 
-Actions I took based on the feedback:
-- Implemented a Google Font (Inter) site-wide and updated the stylesheet so the site uses the Google font for improved readability. The Google Font is included in each page head via the existing Google Fonts link; I also added a body font-family override in `styles.css` to ensure it applies across pages.
-  - Location: the Google Font link is included in each page head (e.g., `index.html` head). The stylesheet `styles.css` now sets `body { font-family: 'Inter', ... }`.
+For things I like, I really like the color gradient you used on the pages. I also really liked your contact page.
 
-- Ensured that at least four pages have content that takes up at minimum one viewport height by adding a CSS rule so `main .container { min-height: 100vh; }`. This ensures the page content fills the screen and meets the assignment requirement.
-  - Pages affected: `index.html`, `about.html`, `contact.html`, `fugly.html`, `bria.html` all include `.container` inside main and now meet the viewport-height requirement.
+For advice on your website, the uneven boxes on the about page might be distracting for some users, so straightening them and making them uniform would help prevent that.
 
-- Added a small, relevant table to `about.html` (Hiking stats) to satisfy the extra-credit table requirement. Table location: `about.html` under "My interests".
+The bright white background can become a bit straining on the eyes after a while, so changing it to a softer color could be a nice change for the user experience.
 
-- Added FontAwesome support and used a FontAwesome icon (dog) in the footer on all pages so the site includes at least one icon from FontAwesome.
-  - FontAwesome link added to each page head. The icon `<i class="fa-solid fa-dog"></i>` appears in the footer on all pages.
+Lastly, this one might be more subjective, as I have a larger monitor, but the text size on the website is a bit on the small side. Increasing the size of the text may help with readability.
+"
+2) Hey Ryan, nice job on your website. The website's color palette is really nice. It's calming but keeps your attention. It's a really cool little animation when you hover above some of the boxes in your about page, how they straighten up. The contact section is cool too. I haven't seen anyone else do that.
 
-- Added a favicon (uses `images/IMG_7150.svg`) and linked it in page heads for extra-credit favicon.
+For possible changes:
 
-Files I added/changed:
-- Modified: `styles.css` (set primary font to Inter, added `min-height:100vh` for main container, minor helper styles for icons)
-- Modified: `index.html`, `about.html`, `contact.html`, `fugly.html`, `bria.html` (added FontAwesome link, favicon link, and footer icon)
-- Modified: `about.html` (added a small table under "My interests")
-- Added: `peer-response.txt` (this file)
+1. It feels like there's a lot of blank space on the page. Maybe adding some more stuff (I see an "under construction" label) would help it look fuller and finished. Even the picture of your dog is pretty small, and who doesn't want to see more of Brita?? 
+2. A lot of the text is tiny and hard to read. Maybe making it bigger would make it more legible, as well as fill out a little more of the space.
 
-Notes and verification:
-- I ran a smoke-test script (`tools/html_check.py`) to verify common HTML issues; all checks passed after these updates.
-- The site is published via GitHub Pages. I also force-published to the `gh-pages` branch to ensure Pages served the latest files immediately; the site was checked to confirm the optimized Bria image and changes are live.
+3. I mentioned above how I really liked the animation in the "about" section of the tilted boxes that turn straight, but it's only some of them. Maybe it's just me, but I would love it if they were uniformed (in a way)
+and all when going from tilted to straight.
+3) Hello Ryan, nice work on your website! Love the animations when hovering over the text boxes in the About section of your site. I also enjoy the contact page; you're giving me ideas for my own website! (Cute dog!)
 
-If you want any wording changes to the table, a different FontAwesome icon, or a different favicon image, tell me which icon/image and I'll update it.
+Some Possible Changes:
+The page has a lot of blank space on the sides of the page(s). You could add a border around the text and pictures on the page to fill in the blank spaces.
 
-Submission checklist (what you will submit):
-- GitHub repository URL: https://github.com/Ryan13059/Website-Test
-- Deployed Pages URL: https://Ryan13059.github.io/Website-Test/
-- Locations in repo:
-  - Google Font included in page heads (e.g., `index.html`) and applied in `styles.css`.
-  - FontAwesome CSS included in page heads (e.g., `index.html`) and used in footer `<i class="fa-solid fa-dog"></i>`.
-  - Table (extra credit) in `about.html` under the "Hiking stats" section.
+Some text is small and could be hard to read, but that also might be because I have a large monitor. Increasing the text size wouldn't hurt much. Also, the images are small, but once again, it could be because of my large monitor.
 
-End of peer response.
+The tilted text boxes on the About page are great, but I don't know if it's on purpose, but some boxes are tilted up, down, or already in the middle. If they were all uniform and then tilted whatever way you felt when you hovered over them, I think it might look a little better. (It could possibly be this style sheet.) image.png 
+
+
+Notes: 
+1) Increased font size 
+2) Fixed the boxes 
+3) Increased the size of Bria's photos- will add more tomorrow. 
